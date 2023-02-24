@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    padding:50px;
+    width:100vw;
+    height:100vh;
+    background-color: bisque;
+}
+.header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    font-size:2rem;
+    color:azure;
+    border-bottom:dashed 2px azure;
+
+}
+.header h1{
+    margin-bottom: 50px;
+}
+.put-here-your-to-do{
+    width:47%;
+    height: 750px;
+
+    margin:30px 15px;
+    padding-top: 50px;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+#to-do{
+    margin-top:40px;
+    padding:5px 5px;
+}
+#button{
+    margin-top:20px;
+    padding: 10px 55px;
+   
+}
+.here-are-yours-list{
+    width:47%;
+    height: 750px;
+    margin:30px 15px;
+    padding-top: 50px;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+  
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+.content{
+    display:flex;
+    justify-content: center;
+}
+.here-are-yours-list h3{
+    font-size:1.5rem;
+}
+.put-here-your-to-do h2{
+    font-size:1.5rem;
+}
+#contentt{
+    margin:30px;
+    width:80%;
+    height:80%;
+    color:black;
+}
+
+ol > li{
+    text-align: center;
+    font-size:20px;
+}
